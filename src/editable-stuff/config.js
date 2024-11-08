@@ -16,7 +16,7 @@ const mainBody = {
       url: "https://github.com/Eglis-dogjani",
     },
     {
-      image: "fa-github",
+      image: "fa-linkedin",
       url: "https://github.com/Eglis-dogjani",
     },
   ],
@@ -40,7 +40,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/eglisdogjani.jpg"),
-  imageSize: 375,
+  imageSize: 300,
   message:
     "Motivated student with a strong academic background and passion for Business and Technology. Eager to apply theoretical knowledge gained throughcoursework to real-world challenges. Seeking an entry-level position to gainhands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
   resume: "#",
@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Eglis-dogjani", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 5,
   specificRepos: [],
 };
 
@@ -88,24 +88,25 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 75 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 95 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 60 },
-    { name: "C#", value: 80 },
+    { name: "Java", value: 60 },
+    { name: "Python", value: 70 },
+    { name: "JavaScript", value: 90 },
+    { name: "jQuery", value: 75 },
+    { name: "Photoshop", value: 75 },
+    { name: "HTML5", value: 90 },
+    { name: "CSS3", value: 85 },
+
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Accounting", value: 65 },
+    { name: "Finance", value: 60 },
+    { name: "Micro-economics", value: 60 },
+    { name: "Macro-economics", value: 60 },
+    { name: "Strategic Management", value: 85 },
+    { name: "E-commerce", value: 75 },
+    { name: "Marketing", value: 70 },
+    { name: "Organisational Behavior", value: 85 },
   ],
 };
 
@@ -115,8 +116,10 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "#",
+  email: "eglisdogjani@gmail.com",
 };
+
+
 
 const experiences = {
   show: false,
