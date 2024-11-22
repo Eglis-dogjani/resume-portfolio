@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Eglis",
   middleName: "",
   lastName: "Dogjani",
-  message: "Ambitious Person with aim about changing the world with technology. ",
+  message: "Full Stack Developer who turns cofee into code",
   icons: [
     {
       image: "fa-github",
@@ -17,7 +17,19 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://github.com/Eglis-dogjani",
+      url: "#",
+    },
+    {
+      image: "fa-telegram",
+      url: "#",
+    },
+    {
+      image: "fa-viber",
+      url: "#",
+    },
+    {
+      image: "fa-snapchat",
+      url: "#",
     },
   ],
 };
@@ -42,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/eglisdogjani.jpg"),
   imageSize: 300,
   message:
-    "Motivated student with a strong academic background and passion for Business and Technology. Eager to apply theoretical knowledge gained throughcoursework to real-world challenges. Seeking an entry-level position to gainhands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
+    "Motivated student with a strong academic background and passion for Business and Technology. Eager to apply theoretical knowledge gained through coursework to real-world challenges. Seeking an entry-level position to gain hands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
   resume: "#",
 };
 
@@ -99,14 +111,14 @@ const skills = {
 
   ],
   softSkills: [
-    { name: "Accounting", value: 65 },
-    { name: "Finance", value: 60 },
-    { name: "Micro-economics", value: 60 },
-    { name: "Macro-economics", value: 60 },
-    { name: "Strategic Management", value: 85 },
-    { name: "E-commerce", value: 75 },
-    { name: "Marketing", value: 70 },
-    { name: "Organisational Behavior", value: 85 },
+    { name: "Communication", value: 75 },
+    { name: "Adaptability", value: 80 },
+    { name: "Creativity", value: 85 },
+    { name: "Problem solving", value: 90 },
+    { name: "Time management", value: 85 },
+    { name: "Collaboration", value: 75 },
+    { name: "Empathy", value: 90 },
+    { name: "Leadership", value: 75 },
   ],
 };
 

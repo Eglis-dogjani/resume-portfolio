@@ -32,6 +32,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
           fill
         >
           <Tab
+            variant="info"
             tabClassName="skills-tab lead"
             eventKey="hard-skills"
             title="Technical Skills"
@@ -41,9 +42,10 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
             </Row>
           </Tab>
           <Tab
+            variant="danger"
             tabClassName="skills-tab lead"
             eventKey="soft-skills"
-            title="Economic Skills"
+            title="Soft Skills"
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />

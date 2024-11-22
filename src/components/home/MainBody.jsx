@@ -46,6 +46,7 @@ const MainBody = React.forwardRef(
           >
             More about me
           </a>
+     
         </Container>
       </Jumbotron>
     );
