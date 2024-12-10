@@ -88,7 +88,7 @@ const Language = ({ languages_url, repo_url }) => {
             target=" _blank"
             rel="noopener noreferrer"
           >
-            <span className="badge bg-light text-dark">
+            <span className="badge bg-info text-dark">
               {language}:{" "}
               {Math.trunc((data[language] / total_count) * 1000) / 10} %
             </span>

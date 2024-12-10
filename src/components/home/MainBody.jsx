@@ -13,7 +13,7 @@ const MainBody = React.forwardRef(
           background: `linear-gradient(136deg,${gradient})`,
           backgroundSize: "1200% 1200%",
         }}
-        className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
+        className="title bg-transparent bgstyle text-dark min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <div id="stars"></div>
         <Container className="text-center">
@@ -21,7 +21,7 @@ const MainBody = React.forwardRef(
             {title}
           </h1>
           <Typist>
-            <div className="lead typist">
+            <div className="lead typist display-7">
               {message}
             </div>
           </Typist>
@@ -39,7 +39,7 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-light btn-lg "
+            className="btn btn-warning btn-lg "
             href="#aboutme"
             role="button"
             aria-label="Learn more about me"

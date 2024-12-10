@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 const Footer = (props) => {
-  const bgStyle = { backgroundColor: "#f5f5f5" };
+  const bgStyle = { backgroundColor: "#7ba2c5" };
 
   return (
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
@@ -13,7 +13,7 @@ const Footer = (props) => {
           rel="noopener"
           href="https://github.com/Eglis-dogjani"
           aria-label="My GitHub"
-        > <span className="badge bg-dark">
+        > <span className="badge bg-primary">
             Eglis Dogjani
           </span>
         </a>{" "}

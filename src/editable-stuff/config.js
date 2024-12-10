@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#ffc107, #fd7e14, #28a745, #007bff, #6f42c1, #6610f2",
   firstName: "Eglis",
   middleName: "",
   lastName: "Dogjani",
@@ -17,19 +17,19 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "#",
+      url: "https://linkedin.com/in/eglis-dogjani-de",
     },
     {
       image: "fa-telegram",
-      url: "#",
+      url: "https://t.me/egli_d7",
     },
     {
-      image: "fa-viber",
+      image: "fa-superpowers",
       url: "#",
     },
     {
       image: "fa-snapchat",
-      url: "#",
+      url: "https://snapchat.com/t/pPW1UHBW",
     },
   ],
 };
@@ -51,10 +51,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/eglisdogjani.jpg"),
-  imageSize: 300,
+  imageLink: require("../editable-stuff/ed.jpg"),
+  imageSize: 299,
   message:
-    "Motivated student with a strong academic background and passion for Business and Technology. Eager to apply theoretical knowledge gained through coursework to real-world challenges. Seeking an entry-level position to gain hands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
+    "Motivated student with a strong academic background and passion for Business Development and Technology. Eager to apply theoretical knowledge gained through coursework to real-world challenges. Seeking an entry-level position to gain hands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
   resume: "#",
 };
 
@@ -127,7 +127,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Development or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "eglisdogjani@gmail.com",
 };
 
