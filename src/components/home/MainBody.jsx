@@ -17,11 +17,12 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center">
-          <h1 ref={ref} className="display-1">
+        <span class="subheading">Hello! My name is </span>
+          <h1 ref={ref} className="display-1 name-custom">
             {title}
           </h1>
           <Typist>
-            <div className="lead typist display-7">
+            <div className="lead typist message-custom">
               {message}
             </div>
           </Typist>
@@ -44,7 +45,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
+            Click more about me
           </a>
      
         </Container>
