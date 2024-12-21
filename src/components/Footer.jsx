@@ -5,7 +5,7 @@ const Footer = (props) => {
   const bgStyle = { backgroundColor: "#7ba2c5" };
 
   return (
-    <footer style={bgStyle} className="mt-auto py-5 text-center ">
+    <footer style={bgStyle} className="mt-auto footersection py-5 text-center ">
       <Container>
         {props.children}
         <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}

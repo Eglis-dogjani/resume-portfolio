@@ -25,3 +25,17 @@ export const NavLink = (props) => {
     </Nav.Link>
   );
 }
+export const NavItem = (props) => {
+  return (
+    <Nav.Item
+      href={props.href}
+      target={props.target}
+      rel={props.rel}
+    >
+      <span className={`nav-item lead ${props.className}`}>
+        {props.children}
+      </span>
+    </Nav.Item>
+  );
+}
+

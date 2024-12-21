@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Eglis",
   middleName: "",
   lastName: "Dogjani",
-  message: "Full Stack Developer who likes cofee and code",
+  message: "M E R N Stack Developer who likes cofee and code",
   icons: [
     {
       image: "fa-github",
@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/ed.png"),
+  imageLink: require("../editable-stuff/ed.jpg"),
   imageSize: 399,
   message:
     "Motivated student with a strong academic background and passion for Business Development and Technology. Eager to apply theoretical knowledge gained through coursework to real-world challenges. Seeking an entry-level position to gain hands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
@@ -106,6 +106,8 @@ const skills = {
     { name: "JavaScript", value: 90 },
     { name: "jQuery", value: 75 },
     { name: "Photoshop", value: 75 },
+    { name: "Object Oriented Programming", value: 90 },
+    { name: "Data Structures", value: 85 },
     { name: "HTML5", value: 90 },
     { name: "CSS3", value: 85 },
 
@@ -117,7 +119,9 @@ const skills = {
     { name: "Problem solving", value: 90 },
     { name: "Time management", value: 85 },
     { name: "Collaboration", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Teamwork", value: 75 },
+    { name: "Curiosity", value: 85 },
+    { name: "Results-Oriented", value: 90 },
     { name: "Leadership", value: 75 },
   ],
 };

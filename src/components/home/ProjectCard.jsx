@@ -100,7 +100,7 @@ const Language = ({ languages_url, repo_url }) => {
   );
 };
 
-const CardFooter = ({ star_count, repo_url, pushed_at }) => {
+const CardFooter = ({ repo_url, pushed_at }) => {
   const [updated_at, setUpdated_at] = useState("0 mints");
 
   const handleUpdatetime = useCallback(() => {
@@ -127,14 +127,10 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
   return (
     <p className="card-text">
       <a
-        href={repo_url + "/stargazers"}
         target=" _blank"
         className="text-dark text-decoration-none"
       >
-        <span className="text-dark card-link mr-4">
-          <i className="fab fa-github" /> Stars{" "}
-          <span className="badge badge-dark">{star_count}</span>
-        </span>
+
       </a>
       <small className="text-muted">Updated {updated_at}</small>
     </p>
