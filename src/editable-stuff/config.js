@@ -9,7 +9,11 @@ const mainBody = {
   firstName: "Eglis",
   middleName: "",
   lastName: "Dogjani",
+<<<<<<< HEAD
   message: "M E R N Stack Developer who likes cofee and code",
+=======
+  message: "Full Stack Developer who turns cofee into code",
+>>>>>>> parent of 6536d457 (optimal Updates)
   icons: [
     {
       image: "fa-github",
@@ -52,7 +56,11 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/ed.jpg"),
+<<<<<<< HEAD
   imageSize: 399,
+=======
+  imageSize: 299,
+>>>>>>> parent of 6536d457 (optimal Updates)
   message:
     "Motivated student with a strong academic background and passion for Business Development and Technology. Eager to apply theoretical knowledge gained through coursework to real-world challenges. Seeking an entry-level position to gain hands-on experience and contribute positively to a dynamic team environment while continuing to learn and grow.",
   resume: "#",
@@ -79,12 +87,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/ed.jpg"), 
+      img: require("../editable-stuff/eglisdogjani.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/ed.jpg"), 
+      img: require("../editable-stuff/eglisdogjani.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -131,7 +139,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Software Development Roles whith opportunities where programming as a skill is required! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Development or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "eglisdogjani@gmail.com",
 };
 
