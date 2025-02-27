@@ -127,6 +127,7 @@ const CardFooter = ({ repo_url, pushed_at }) => {
   return (
     <p className="card-text">
       <a
+        href="#projects"
         target=" _blank"
         className="text-dark text-decoration-none"
       >
